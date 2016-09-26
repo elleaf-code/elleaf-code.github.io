@@ -12,23 +12,6 @@ html, body {
   margin-right: 20px;
 }
 
- 
-.header {
-  position: fixed;
-  background-color: #333333;
-  padding-left: 30px;
-  padding-right: 10px;
-  margin: 30 auto;
-  margin-left: 40%;
-  z-index: 2;
-}
-    
-.header .nav li {
-  display: inline;
-  margin-right: 25px;
-  text-transform: uppercase;
-}
-
 .container {
   top: 100px;
   max-width: 940px;
@@ -44,25 +27,6 @@ html, body {
   background-size: cover;
   filter: hue-rotate(30deg);
   -webkit-filter: hue-rotate(30deg)
-}
-
-.nav {
-  margin: 0px auto;
-  padding: 20px 0;
-  background-color: #333333;
-}
-
-.nav li a {
-  color: #fff;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  text-decoration: none;
-}
-
-.nav li img {
-  height: 25px;
-  margin-bottom: -5px;
 }
 
 .main {
