@@ -1,0 +1,107 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+ 
+.header {
+  position: fixed;
+  background-color: #333333;
+  padding-left: 30px;
+  padding-right: 10px;
+  margin: 30 auto;
+  margin-left: 40%;
+  z-index: 2;
+}
+    
+.header .nav li {
+  display: inline;
+  margin-right: 25px;
+  text-transform: uppercase;
+}
+
+.container {
+  top: 100px;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.jumbotron {
+  height: 650px;
+  /*background: url(https://static.pexels.com/photos/1826/wood-nature-sunny-forest.jpg) no-repeat center;*/
+  /*background: url(http://nebula.wsimg.com/efeeeb27a40dd8536c6156224b343726?AccessKeyId=B2D648A1CED227DD212A&disposition=0&alloworigin=1) no-repeat center;*/
+  background: url(https://s3.amazonaws.com/images.hiresphoto.com/girl-in-the-forest.jpg) no-repeat left;
+  background-size: cover;
+  filter: hue-rotate(30deg);
+  -webkit-filter: hue-rotate(30deg)
+}
+
+.nav {
+  margin: 0px auto;
+  padding: 20px 0;
+  background-color: #333333;
+}
+
+.nav li a {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.nav li img {
+  height: 25px;
+  margin-bottom: -5px;
+}
+
+.main {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+.main h1 {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.main p {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 1.3px;
+  padding: 0px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main a:link {
+  opacity: 0.7;
+  background-color: transparent;
+  border: none;
+  margin: 5px 20px;
+}
+
+.main a:hover {
+  opacity: 0.9;
+  background-color: transparent;
+  border: none;
+  margin: 5px 20px;
+}
